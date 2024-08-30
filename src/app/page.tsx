@@ -6,39 +6,64 @@ export default function Home() {
       <header>
         <div className="wrapper">
           <div className="topbar-1">
-            <nav>
-              <ul>
-                <li>
-                  <a
-                    aria-label="adidas"
-                    className="brand-link"
-                    data-testid="link"
-                    href="https://www.adidas.fi/"
-                  >
-                    <svg
-                      width="30px"
-                      height="30px"
-                      viewBox="0 0 30 30"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
+            <div className="topbar-2">
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      aria-label="adidas"
+                      className="brand-link"
+                      data-testid="link"
+                      href="https://www.adidas.fi/"
                     >
-                      <path
-                        d="M1.662 23.75L0.914 22.455L6.327 19.33L8.879 23.75H1.662Z"
-                        fill="#000000"
-                      />
-                      <path
-                        d="M18.982 23.75H11.764L7.242 15.915L12.655 12.79L18.982 23.75Z"
-                        fill="#000000"
-                      />
-                      <path
-                        d="M29.086 23.75H21.868L13.57 9.375L18.982 6.25L29.086 23.75Z"
-                        fill="#000000"
-                      />
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </nav>
+                      <svg
+                        width="24px"
+                        height="24px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M8 16L3.54223 12.3383C1.93278 11.0162 1 9.04287 1 6.96005C1 3.11612 4.15607 0 8 0C11.8439 0 15 3.11612 15 6.96005C15 9.04287 14.0672 11.0162 12.4578 12.3383L8 16ZM3 6H5C6.10457 6 7 6.89543 7 8V9L3 7.5V6ZM11 6C9.89543 6 9 6.89543 9 8V9L13 7.5V6H11Z"
+                          fill="#000000"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div className="topbar-3">
+              <nav>
+                <ul>
+                  <li>
+                    <a>
+                      <p>Find a store</p>
+                    </a>
+                    <div></div>
+                  </li>
+                  <li>
+                    <a>
+                      <p>Help</p>
+                    </a>
+                    <div></div>
+                  </li>
+                  <li>
+                    <a>
+                      <p>Join Us</p>
+                    </a>
+                    <div></div>
+                  </li>
+                  <li>
+                    <a>
+                      <p>Sign In</p>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
         <div className="container-2">
