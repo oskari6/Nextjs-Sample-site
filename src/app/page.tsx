@@ -3,206 +3,237 @@ import "./styles/home.css";
 export default function Home() {
   return (
     <>
-      <div className="wrapper">
-        <div className="topbar-1">
-          <div className="topbar-2">
-            <nav>
-              <ul>
-                <li>
-                  <a
-                    aria-label="adidas"
-                    className="brand-link"
-                    data-testid="link"
-                    href="https://www.adidas.fi/"
-                  >
-                    <svg
-                      width="24px"
-                      height="24px"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 16L3.54223 12.3383C1.93278 11.0162 1 9.04287 1 6.96005C1 3.11612 4.15607 0 8 0C11.8439 0 15 3.11612 15 6.96005C15 9.04287 14.0672 11.0162 12.4578 12.3383L8 16ZM3 6H5C6.10457 6 7 6.89543 7 8V9L3 7.5V6ZM11 6C9.89543 6 9 6.89543 9 8V9L13 7.5V6H11Z"
-                        fill="#000000"
-                      />
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div className="topbar-3">
-            <nav>
-              <ul>
-                <li>
-                  <a>
-                    <p>Find a store</p>
-                  </a>
-                  <div></div>
-                </li>
-                <li>
-                  <a>
-                    <p>Help</p>
-                  </a>
-                  <div></div>
-                </li>
-                <li>
-                  <a>
-                    <p>Join Us</p>
-                  </a>
-                  <div></div>
-                </li>
-                <li>
-                  <a>
-                    <p>Sign In</p>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+      <div id="commerce-header-wrapper">
+        <div id="gen-nav-commerce-header">
+          <nav>
+            <a href="#skip-to-content" className="skip-to-main-content"></a>
+            <div className="wrapper">
+              <div className="topbar-1">
+                <div className="topbar-2">
+                  <nav>
+                    <ul>
+                      <li>
+                        <a
+                          aria-label="adidas"
+                          className="brand-link"
+                          data-testid="link"
+                          href="https://www.adidas.fi/"
+                        >
+                          <svg
+                            width="24px"
+                            height="24px"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M8 16L3.54223 12.3383C1.93278 11.0162 1 9.04287 1 6.96005C1 3.11612 4.15607 0 8 0C11.8439 0 15 3.11612 15 6.96005C15 9.04287 14.0672 11.0162 12.4578 12.3383L8 16ZM3 6H5C6.10457 6 7 6.89543 7 8V9L3 7.5V6ZM11 6C9.89543 6 9 6.89543 9 8V9L13 7.5V6H11Z"
+                              fill="#000000"
+                            />
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <div className="topbar-3">
+                  <nav>
+                    <ul>
+                      <li>
+                        <a>
+                          <p>Find a store</p>
+                        </a>
+                        <div></div>
+                      </li>
+                      <li>
+                        <a>
+                          <p>Help</p>
+                        </a>
+                        <div></div>
+                      </li>
+                      <li>
+                        <a>
+                          <p>Join Us</p>
+                        </a>
+                        <div></div>
+                      </li>
+                      <li>
+                        <a>
+                          <p>Sign In</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+            <header className="header-style">
+              <div className="header-1">
+                <div className="header-2">
+                  <div className="header-3">
+                    <a>
+                      <svg
+                        width="24px"
+                        height="24px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M12 20 L7.54223 16.3383 C5.93278 15.0162 5 13.04287 5 10.96005 C5 7.11612 8.15607 4 12 4 C15.8439 4 19 7.11612 19 10.96005 C19 13.04287 18.0672 15.0162 16.4578 16.3383 L12 20 Z M7 10 H9 C10.10457 10 11 10.89543 11 12 V13 L7 11.5 V10 Z M15 10 C13.89543 10 13 10.89543 13 12 V13 L17 11.5 V10 H15 Z
+"
+                          fill="#000000"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                  <div className="header-4">
+                    <nav>
+                      <ul>
+                        <li>
+                          <div>
+                            <a>New & Featured</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <a>Men</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <a>Women</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <a>Kids</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <a>Offers</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div className="header-5">
+                    <div className="header-6">
+                      <search></search>
+                      <button>
+                        <svg
+                          viewBox="0 0 24 24"
+                          role="img"
+                          width="24px"
+                          height="24px"
+                          fill="none"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            d="M3.75 21v-3a3.75 3.75 0 013.75-3.75h9A3.75 3.75 0 0120.25 18v3M12 3.75a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5z"
+                          ></path>
+                        </svg>
+                      </button>
+                      <a>
+                        <div>
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            role="img"
+                            width="24px"
+                            height="24px"
+                            fill="none"
+                          >
+                            <path
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"
+                            ></path>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </header>
+            <div className="scrim"></div>
+          </nav>
+          <div id="skip-to-content"></div>
         </div>
       </div>
-      <header>
-        <div className="header-1">
-          <div className="header-2">
-            <div className="header-3">
-              <a>
-                <svg
-                  width="24px"
-                  height="24px"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M12 20 L7.54223 16.3383 C5.93278 15.0162 5 13.04287 5 10.96005 C5 7.11612 8.15607 4 12 4 C15.8439 4 19 7.11612 19 10.96005 C19 13.04287 18.0672 15.0162 16.4578 16.3383 L12 20 Z M7 10 H9 C10.10457 10 11 10.89543 11 12 V13 L7 11.5 V10 Z M15 10 C13.89543 10 13 10.89543 13 12 V13 L17 11.5 V10 H15 Z
-"
-                    fill="#000000"
-                  />
-                </svg>
-              </a>
+      <div id="experience-wrapper">
+        <div id="__next" data-reactroot>
+          <div id="content-wrapper">
+            <div>
+              <script
+                type="application/ld+json"
+                data-qa="WebPageScript"
+              ></script>
             </div>
-            <div className="header-4">
-              <nav>
-                <ul>
-                  <li>
+            <div role="main">
+              <div className="banner">
+                <div>
+                  <div className="banner-2">
+                    <span>Shop All New Arrivals</span>
                     <div>
-                      <a>New & Featured</a>
+                      <p>
+                        <a>Shop</a>
+                      </p>
                     </div>
-                  </li>
-                  <li>
-                    <div>
-                      <a>Men</a>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <a>Women</a>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <a>Kids</a>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <a>Offers</a>
-                    </div>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div className="header-5">
-              <div className="header-6">
-                <search></search>
-                <button>
-                  <svg
-                    aria-hidden="true"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                    role="img"
-                    width="24px"
-                    height="24px"
-                    fill="none"
-                  >
-                    <path
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      d="M3.75 21v-3a3.75 3.75 0 013.75-3.75h9A3.75 3.75 0 0120.25 18v3M12 3.75a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5z"
-                    ></path>
-                  </svg>
-                </button>
-                <a>
-                  <div>
-                    <svg
-                      aria-hidden="true"
-                      focusable="false"
-                      viewBox="0 0 24 24"
-                      role="img"
-                      width="24px"
-                      height="24px"
-                      fill="none"
-                    >
-                      <path
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                        d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"
-                      ></path>
-                    </svg>
                   </div>
-                </a>
+                </div>
+              </div>
+              <div className="media-wrapper">
+                <div className="media-wrapper-2">
+                  <div className="media-wrapper-3">
+                    <div className="media-wrapper-4">
+                      <div className="media-wrapper-5">
+                        <div className="media-wrapper-6">
+                          <div className="rvp-video-root">
+                            <div className="video-container">
+                              <video></video>
+                              <div className="video-bg-image"></div>
+                              <div className="video-element">
+                                <div className="video-element-2"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="media-wrapper-7">
+                          <div className="card-overlay">
+                            <div className="card-overlay-content">
+                              <h1>
+                                GO
+                                <br />
+                                BACK
+                                <br />
+                                BETTER
+                              </h1>
+                              <p>Get set for school</p>
+                              <div className="cta-container">
+                                <a>Shop Kids</a>
+                                <a>Shop All</a>
+                              </div>
+                            </div>
+                          </div>
+                          <a href=""></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </header>
-      <div className="container-14"></div>
-      <div className="container-3"></div>
-      <div className="container-4">
-        <div className="container-5">[img]</div>
-        <div className="container-5">[img]</div>
-        <div className="container-5">[img]</div>
-      </div>
-      <div className="container-11">
-        <div className="container-13">
-          <div className="container-5">[img]</div>
-        </div>
-        <div className="container-12">
-          <div className="container-5">[img]</div>
-        </div>
-        <div className="container-12">
-          <div className="container-5">[img]</div>
-        </div>
-        <div className="container-13">
-          <div className="container-5">[img]</div>
-        </div>
-      </div>
-      <div className="container-15">
-        <div className="container-17">
-          <div className="container-5">[img]</div>
-        </div>
-        <div className="container-17">
-          <div className="container-5">[img]</div>
-        </div>
-        <div className="container-16">
-          <div className="container-5">[img]</div>
-        </div>
-      </div>
-      <div className="container-15">
-        <div className="container-17">
-          <div className="container-5">[img]</div>
-        </div>
-        <div className="container-17">
-          <div className="container-5">[img]</div>
-        </div>
-        <div className="container-18">
-          <div className="container-5">[img]</div>
         </div>
       </div>
       <footer className="container-footer">
