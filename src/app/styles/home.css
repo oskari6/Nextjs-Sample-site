@@ -1,12 +1,43 @@
 html {
-  -webkit-text-size-adjust: none;
+  font-size: 16px;
+  line-height: 1.75;
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
 }
 body,
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  font-size: inherit;
+  line-height: inherit;
+  font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
 header {
+  display: block;
+  unicode-bidi: isolate;
+}
+footer {
   display: block;
   unicode-bidi: isolate;
 }
@@ -29,18 +60,7 @@ ul {
   padding-inline-start: 40px;
   unicode-bidi: isolate;
 }
-div {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-div {
-  display: block;
-  unicode-bidi: isolate;
-}
+
 p {
   display: block;
   margin-block-start: 1em;
@@ -65,9 +85,6 @@ svg:not(:root) {
   overflow-clip-margin: content-box;
   overflow: hidden;
 }
-:not(svg) {
-  transform-origin: 0px 0px;
-}
 fieldset,
 h1,
 h2,
@@ -90,9 +107,6 @@ ul {
   vertical-align: baseline;
 }
 
-:not(svg) {
-  transform-origin: 0px 0px;
-}
 *,
 :after,
 :before {
@@ -398,16 +412,10 @@ a {
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 600px) {
-  .media-wrapper-3 {
-    width: 100%;
-    display: inline-block;
-  }
-}
 [class*="media-wrapper-3"] {
   position: relative;
   min-height: 1px;
-  display: none;
+  display: inline-block;
   font-size: 16px;
   line-height: 1.75;
   padding-left: 6px;
@@ -443,7 +451,8 @@ a {
   -moz-user-select: none;
   user-select: none;
 }
-.card.overlay {
+.card-overlay {
+  width: calc(100% - 48px);
   text-align: left;
   justify-content: flex-end;
   height: 33.33333%;
@@ -455,11 +464,17 @@ a {
   display: flex;
   flex-direction: column;
 }
+@media only screen and (min-width: 960px) {
+  .card-overlay {
+    left: 48px;
+    user-select: auto;
+    top: calc(66.66667% - 48px);
+  }
+}
 .card-overlay-content {
   text-align: left;
 }
 .card-overlay-content h1 {
-  font-weight: 500;
   font: 800 4.75rem/0.9 "Nike Futura ND", "Helvetica Now Text Medium", Helvetica,
     Arial, sans-serif;
   color: white;
@@ -468,8 +483,7 @@ a {
 .card-overlay-content p {
   margin-top: 8px;
   text-align: left;
-  font: 800 4.75rem/0.9 "Nike Futura ND", "Helvetica Now Text Medium", Helvetica,
-    Arial, sans-serif;
+  font: 400 1rem / 1.5 "Helvetica Now Text", Helvetica, Arial, sans-serif;
   color: white;
   text-align: left;
 }
@@ -487,7 +501,7 @@ a {
   margin-right: 6px;
   margin-top: 6px;
   max-width: 100%;
-  font: 500 1rem/1.5 "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+  font: 600 1rem/1.5 "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   box-sizing: border-box;
@@ -505,6 +519,37 @@ a {
   border: none;
   border-radius: 30px;
   outline: none;
+  word-wrap: break-word;
+}
+.cta-container a::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 30px;
+}
+.cta-container a::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ripple {
+  display: block;
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  border-radius: 30px;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-size: 100%;
+  transform: translate3d(-50%, -50%, 0) scale(10);
+  transform-origin: center center;
+  opacity: 0;
+  transition: transform 0.8s, opacity 1s;
+  margin: 0;
 }
 .video-bg-link {
   z-index: 1;
@@ -531,9 +576,11 @@ a {
   height: 100% !important;
   padding-top: 0 !important;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  background-color: transparent;
   font-size: 16px;
   width: 100%;
   max-width: 100%;
+  outline: none;
   display: block;
   vertical-align: top;
   box-sizing: border-box;
@@ -554,7 +601,7 @@ a {
   height: 100%;
 }
 .video-bg-image {
-  background-image: url();
+  background-image: url("/template.jpg");
   opacity: 0;
   background-color: transparent;
   display: block !important;
@@ -590,11 +637,14 @@ a {
   margin: 1.5%;
 }
 .container-footer {
-  padding: 48px;
-  min-height: 300px;
   width: 100%;
   max-width: 1920px;
   margin: auto;
+}
+@media (min-width: 960px) {
+  .container-footer {
+    padding: 48px;
+  }
 }
 .footer-header {
   color: black;
@@ -615,9 +665,14 @@ span {
   color: #707072;
 }
 .container-6 {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
+}
+@media (min-width: 960px) {
+  .container-6 {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex-direction: row;
+  }
 }
 .container-7 {
   display: flex;
@@ -629,19 +684,34 @@ span {
 .container-7 a {
   margin-bottom: 12px;
 }
+.container-8-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1 0 0;
+}
 .container-8 {
-  justify-content: flex-end;
   width: 100%;
   display: flex;
+  height: 21px;
   align-items: center;
   gap: 4px;
   flex: 1 0 0;
-  -webkit-box-pack: end;
-  height: 21px;
+}
+@media (min-width: 960px) {
+  .container-8 {
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+  }
 }
 .container-8 button {
   text-decoration: none;
   box-sizing: border-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  font: 600 0.875rem / 1.5 "Helvetica Now Text Medium", Helvetica, Arial,
+    sans-serif;
   position: relative;
   cursor: pointer;
   display: block;
@@ -662,17 +732,27 @@ span {
   width: 16px;
   height: 16px;
   transform: translateY(3px);
+  content: "";
+  position: absolute;
 }
 .container-19 {
   padding-bottom: 48px;
 }
 .container-20 {
-  margin-bottom: 60px;
   height: 1px;
   background: #e5e5e5;
 }
+@media (min-width: 960px) {
+  .container-20 {
+    margin-bottom: 60px;
+  }
+}
 .footer-spacer {
-  margin-bottom: 72px;
+}
+@media (min-width: 960px) {
+  .footer-spacer {
+    margin-bottom: 72px;
+  }
 }
 .style-1 {
   color: #707072;
