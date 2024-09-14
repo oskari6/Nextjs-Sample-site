@@ -1,4 +1,5 @@
 import "./styles/home.css";
+import "./styles/content.css";
 
 export default function Home() {
   return (
@@ -248,8 +249,1236 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="banner-3">
+          <div className="banner-3-child">
+            <div className="banner-3-child-2">
+              <div className="banner-3-child-3">
+                <h3>DON'T WASTE YOUR ENERGY</h3>
+                <div className="banner-3-child-4">
+                  <p>[template txt]</p>
+                  <br></br>
+                  <p>[template txt 2]</p>
+                </div>
+                <div className="banner-3-child-5">
+                  <a>
+                    Shop
+                    <span className="ripple"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="banner-4">
+          <div className="banner-5-child">
+            <div className="banner-5-child-2">
+              <div className="banner-5-child-3">
+                <section>
+                  <div className="banner-5-child-4">
+                    <div className="banner-5-child-5">
+                      <div className="banner-5-child-6">
+                        <h2>Latest and Greatest</h2>
+                      </div>
+                    </div>
+                    <div className="carousel-buttons">
+                      <button>
+                        <div>
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            role="img"
+                            width="24px"
+                            height="24px"
+                            fill="none"
+                          >
+                            <path
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              d="M15.525 18.966L8.558 12l6.967-6.967"
+                            ></path>
+                          </svg>
+                        </div>
+                      </button>
+                      <button>
+                        <div>
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            role="img"
+                            width="24px"
+                            height="24px"
+                            fill="none"
+                          >
+                            <path
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              d="M8.474 18.966L15.44 12 8.474 5.033"
+                            ></path>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>
+                      <figure>
+                        <div>
+                          <div>
+                            <img />
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <h3>[overlay content]</h3>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div>
+                          <div>
+                            <img />
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <h3>[overlay content]</h3>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div>
+                          <div>
+                            <img />
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <h3>[overlay content]</h3>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div>
+                          <div>
+                            <img />
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <h3>[overlay content]</h3>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div>
+                          <div>
+                            <img />
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <h3>[overlay content]</h3>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li className="buffer"></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="banner-5">
+          <div className="banner-5-child">
+            <div className="banner-5-child-2">
+              <div className="banner-5-child-3">
+                <section>
+                  <div className="banner-5-child-4">
+                    <div className="banner-5-child-5">
+                      <div className="banner-5-child-6">
+                        <h2>[title]</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>
+                      <figure>
+                        <div className="banner-5-child-7">
+                          <div className="banner-5-child-8">
+                            <div className="banner-5-child-9">
+                              <img />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="banner-5-child-10">
+                          <div className="banner-5-child-11">
+                            <div className="banner-5-child-12">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-5-child-7">
+                          <div className="banner-5-child-8">
+                            <div className="banner-5-child-9">
+                              <img />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="banner-5-child-10">
+                          <div className="banner-5-child-11">
+                            <div className="banner-5-child-12">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-5-child-7">
+                          <div className="banner-5-child-8">
+                            <div className="banner-5-child-9">
+                              <img />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="banner-5-child-10">
+                          <div className="banner-5-child-11">
+                            <div className="banner-5-child-12">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-5-child-7">
+                          <div className="banner-5-child-8">
+                            <div className="banner-5-child-9">
+                              <img />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="banner-5-child-10">
+                          <div className="banner-5-child-11">
+                            <div className="banner-5-child-12">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-5-child-7">
+                          <div className="banner-5-child-8">
+                            <div className="banner-5-child-9">
+                              <img />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="banner-5-child-10">
+                          <div className="banner-5-child-11">
+                            <div className="banner-5-child-12">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-5-child-7">
+                          <div className="banner-5-child-8">
+                            <div className="banner-5-child-9">
+                              <img />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="banner-5-child-10">
+                          <div className="banner-5-child-11">
+                            <div className="banner-5-child-12">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-5-child-7">
+                          <div className="banner-5-child-8">
+                            <div className="banner-5-child-9">
+                              <img />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="banner-5-child-10">
+                          <div className="banner-5-child-11">
+                            <div className="banner-5-child-12">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li className="buffer"></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="banner-6">
+          <div className="banner-6-child">
+            <div className="banner-6-child-2">
+              <div className="banner-6-child-3">
+                <section>
+                  <div className="banner-6-child-4">
+                    <div className="banner-6-child-5">
+                      <div className="banner-6-child-6">
+                        <h2>[title]</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>
+                      <figure>
+                        <div className="banner-6-child-7">
+                          <div className="banner-6-child-8">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-6-child-9">
+                          <div className="banner-6-child-10">
+                            <div className="banner-6-child-11">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-6-child-7">
+                          <div className="banner-6-child-8">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-6-child-9">
+                          <div className="banner-6-child-10">
+                            <div className="banner-6-child-11">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-6-child-7">
+                          <div className="banner-6-child-8">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-6-child-9">
+                          <div className="banner-6-child-10">
+                            <div className="banner-6-child-11">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-6-child-7">
+                          <div className="banner-6-child-8">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-6-child-9">
+                          <div className="banner-6-child-10">
+                            <div className="banner-6-child-11">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-6-child-7">
+                          <div className="banner-6-child-8">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-6-child-9">
+                          <div className="banner-6-child-10">
+                            <div className="banner-6-child-11">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-6-child-7">
+                          <div className="banner-6-child-8">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-6-child-9">
+                          <div className="banner-6-child-10">
+                            <div className="banner-6-child-11">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-6-child-7">
+                          <div className="banner-6-child-8">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-6-child-9">
+                          <div className="banner-6-child-10">
+                            <div className="banner-6-child-11">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-6-child-7">
+                          <div className="banner-6-child-8">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-6-child-9">
+                          <div className="banner-6-child-10">
+                            <div className="banner-6-child-11">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li className="buffer"></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="banner-7">
+          <div className="banner-7-child">
+            <div className="banner-7-child-2">
+              <div className="banner-7-child-3">
+                <section>
+                  <div className="banner-7-child-4">
+                    <div className="banner-7-child-5">
+                      <div className="banner-7-child-6">
+                        <h2>[title]</h2>
+                      </div>
+                    </div>
+                    <div className="banner-7-child-7">
+                      <a></a>
+                      <button>
+                        <div className="banner-7-child-8">
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            role="img"
+                            width="24px"
+                            height="24px"
+                            fill="none"
+                          >
+                            <path
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              d="M15.525 18.966L8.558 12l6.967-6.967"
+                            ></path>
+                          </svg>
+                        </div>
+                      </button>
+                      <button>
+                        <div className="banner-7-child-9">
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            role="img"
+                            width="24px"
+                            height="24px"
+                            fill="none"
+                          >
+                            <path
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              d="M8.474 18.966L15.44 12 8.474 5.033"
+                            ></path>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>
+                      <div className="banner-7-child-10">
+                        <a>
+                          <figure>
+                            <div className="banner-7-child-11">
+                              <div className="banner-7-child-12">
+                                <div className="banner-7-child-13">
+                                  <img />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="banner-7-child-14">
+                              <div className="banner-7-child-15">
+                                <h4>[title]</h4>
+                                <h5>[category]</h5>
+                              </div>
+                              <div className="banner-7-child-16">
+                                <div className="banner-7-child-17">
+                                  <div className="banner-7-child-18">
+                                    <h3>[price]</h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </figure>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="banner-7-child-10">
+                        <a>
+                          <figure>
+                            <div className="banner-7-child-11">
+                              <div className="banner-7-child-12">
+                                <div className="banner-7-child-13">
+                                  <img />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="banner-7-child-14">
+                              <div className="banner-7-child-15">
+                                <h4>[title]</h4>
+                                <h5>[category]</h5>
+                              </div>
+                              <div className="banner-7-child-16">
+                                <div className="banner-7-child-17">
+                                  <div className="banner-7-child-18">
+                                    <h3>[price]</h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </figure>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="banner-7-child-10">
+                        <a>
+                          <figure>
+                            <div className="banner-7-child-11">
+                              <div className="banner-7-child-12">
+                                <div className="banner-7-child-13">
+                                  <img />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="banner-7-child-14">
+                              <div className="banner-7-child-15">
+                                <h4>[title]</h4>
+                                <h5>[category]</h5>
+                              </div>
+                              <div className="banner-7-child-16">
+                                <div className="banner-7-child-17">
+                                  <div className="banner-7-child-18">
+                                    <h3>[price]</h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </figure>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="banner-7-child-10">
+                        <a>
+                          <figure>
+                            <div className="banner-7-child-11">
+                              <div className="banner-7-child-12">
+                                <div className="banner-7-child-13">
+                                  <img />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="banner-7-child-14">
+                              <div className="banner-7-child-15">
+                                <h4>[title]</h4>
+                                <h5>[category]</h5>
+                              </div>
+                              <div className="banner-7-child-16">
+                                <div className="banner-7-child-17">
+                                  <div className="banner-7-child-18">
+                                    <h3>[price]</h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </figure>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="banner-7-child-10">
+                        <a>
+                          <figure>
+                            <div className="banner-7-child-11">
+                              <div className="banner-7-child-12">
+                                <div className="banner-7-child-13">
+                                  <img />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="banner-7-child-14">
+                              <div className="banner-7-child-15">
+                                <h4>[title]</h4>
+                                <h5>[category]</h5>
+                              </div>
+                              <div className="banner-7-child-16">
+                                <div className="banner-7-child-17">
+                                  <div className="banner-7-child-18">
+                                    <h3>[price]</h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </figure>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="banner-7-child-10">
+                        <a>
+                          <figure>
+                            <div className="banner-7-child-11">
+                              <div className="banner-7-child-12">
+                                <div className="banner-7-child-13">
+                                  <img />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="banner-7-child-14">
+                              <div className="banner-7-child-15">
+                                <h4>[title]</h4>
+                                <h5>[category]</h5>
+                              </div>
+                              <div className="banner-7-child-16">
+                                <div className="banner-7-child-17">
+                                  <div className="banner-7-child-18">
+                                    <h3>[price]</h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </figure>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="banner-7-child-10">
+                        <a>
+                          <figure>
+                            <div className="banner-7-child-11">
+                              <div className="banner-7-child-12">
+                                <div className="banner-7-child-13">
+                                  <img />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="banner-7-child-14">
+                              <div className="banner-7-child-15">
+                                <h4>[title]</h4>
+                                <h5>[category]</h5>
+                              </div>
+                              <div className="banner-7-child-16">
+                                <div className="banner-7-child-17">
+                                  <div className="banner-7-child-18">
+                                    <h3>[price]</h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </figure>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="banner-7-child-10">
+                        <a>
+                          <figure>
+                            <div className="banner-7-child-11">
+                              <div className="banner-7-child-12">
+                                <div className="banner-7-child-13">
+                                  <img />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="banner-7-child-14">
+                              <div className="banner-7-child-15">
+                                <h4>[title]</h4>
+                                <h5>[category]</h5>
+                              </div>
+                              <div className="banner-7-child-16">
+                                <div className="banner-7-child-17">
+                                  <div className="banner-7-child-18">
+                                    <h3>[price]</h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </figure>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="banner-7-child-10">
+                        <a>
+                          <figure>
+                            <div className="banner-7-child-11">
+                              <div className="banner-7-child-12">
+                                <div className="banner-7-child-13">
+                                  <img />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="banner-7-child-14">
+                              <div className="banner-7-child-15">
+                                <h4>[title]</h4>
+                                <h5>[category]</h5>
+                              </div>
+                              <div className="banner-7-child-16">
+                                <div className="banner-7-child-17">
+                                  <div className="banner-7-child-18">
+                                    <h3>[price]</h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </figure>
+                        </a>
+                      </div>
+                    </li>
+                    <li className="buffer"></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="banner-8">
+          <div className="banner-8-child">
+            <div className="banner-8-child-2">
+              <div className="banner-8-child-3">
+                <section>
+                  <div className="banner-8-child-4">
+                    <div className="banner-8-child-4">
+                      <div className="banner-8-child-5">
+                        <h2>[title]</h2>
+                      </div>
+                    </div>
+                    <div className="banner-8-child-6">
+                      <button>
+                        <div className="banner-8-child-7">
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            role="img"
+                            width="24px"
+                            height="24px"
+                            fill="none"
+                          >
+                            <path
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              d="M15.525 18.966L8.558 12l6.967-6.967"
+                            ></path>
+                          </svg>
+                        </div>
+                      </button>
+                      <button>
+                        <div className="banner-8-child-8">
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            role="img"
+                            width="24px"
+                            height="24px"
+                            fill="none"
+                          >
+                            <path
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              d="M8.474 18.966L15.44 12 8.474 5.033"
+                            ></path>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>
+                      <figure>
+                        <div className="banner-8-child-9">
+                          <div className="banner-8-child-10">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-8-child-11">
+                          <div className="banner-8-child-12">
+                            <div className="banner-8-child-13">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-8-child-9">
+                          <div className="banner-8-child-10">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-8-child-11">
+                          <div className="banner-8-child-12">
+                            <div className="banner-8-child-13">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-8-child-9">
+                          <div className="banner-8-child-10">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-8-child-11">
+                          <div className="banner-8-child-12">
+                            <div className="banner-8-child-13">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <div className="banner-8-child-9">
+                          <div className="banner-8-child-10">
+                            <img />
+                          </div>
+                        </div>
+                        <div className="banner-8-child-11">
+                          <div className="banner-8-child-12">
+                            <div className="banner-8-child-13">
+                              <a>[img title]</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a></a>
+                      </figure>
+                    </li>
+                    <li className="buffer"></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="banner-9">
+          <div className="banner-9-child">
+            <div className="banner-9-child-2">
+              <section>
+                <div className="banner-9-child-3">
+                  <div className="banner-9-child-4">
+                    <div className="banner-9-child-5">
+                      <h2>[title]</h2>
+                    </div>
+                  </div>
+                  <div className="banner-9-child-6">
+                    <button>
+                      <div className="banner-9-child-7">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                          role="img"
+                          width="24px"
+                          height="24px"
+                          fill="none"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            d="M15.525 18.966L8.558 12l6.967-6.967"
+                          ></path>
+                        </svg>
+                      </div>
+                    </button>
+                    <button>
+                      <div className="banner-9-child-8">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                          role="img"
+                          width="24px"
+                          height="24px"
+                          fill="none"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            d="M8.474 18.966L15.44 12 8.474 5.033"
+                          ></path>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+                <ul>
+                  <li>
+                    <figure>
+                      <div className="banner-9-child-9">
+                        <div className="banner-9-child-10">
+                          <img />
+                        </div>
+                      </div>
+                      <div className="banner-9-child-11">
+                        <div className="banner-9-child-12">
+                          <p>[type]</p>
+                          <h3>[title]</h3>
+                          <div className="banner-9-child-13">
+                            <a>[shop]</a>
+                          </div>
+                        </div>
+                      </div>
+                      <a></a>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <div className="banner-9-child-9">
+                        <div className="banner-9-child-10">
+                          <img />
+                        </div>
+                      </div>
+                      <div className="banner-9-child-11">
+                        <div className="banner-9-child-12">
+                          <p>[type]</p>
+                          <h3>[title]</h3>
+                          <div className="banner-9-child-13">
+                            <a>[shop]</a>
+                          </div>
+                        </div>
+                      </div>
+                      <a></a>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <div className="banner-9-child-9">
+                        <div className="banner-9-child-10">
+                          <img />
+                        </div>
+                      </div>
+                      <div className="banner-9-child-11">
+                        <div className="banner-9-child-12">
+                          <p>[type]</p>
+                          <h3>[title]</h3>
+                          <div className="banner-9-child-13">
+                            <a>[shop]</a>
+                          </div>
+                        </div>
+                      </div>
+                      <a></a>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <div className="banner-9-child-9">
+                        <div className="banner-9-child-10">
+                          <img />
+                        </div>
+                      </div>
+                      <div className="banner-9-child-11">
+                        <div className="banner-9-child-12">
+                          <p>[type]</p>
+                          <h3>[title]</h3>
+                          <div className="banner-9-child-13">
+                            <a>[shop]</a>
+                          </div>
+                        </div>
+                      </div>
+                      <a></a>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <div className="banner-9-child-9">
+                        <div className="banner-9-child-10">
+                          <img />
+                        </div>
+                      </div>
+                      <div className="banner-9-child-11">
+                        <div className="banner-9-child-12">
+                          <p>[type]</p>
+                          <h3>[title]</h3>
+                          <div className="banner-9-child-13">
+                            <a>[shop]</a>
+                          </div>
+                        </div>
+                      </div>
+                      <a></a>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <div className="banner-9-child-9">
+                        <div className="banner-9-child-10">
+                          <img />
+                        </div>
+                      </div>
+                      <div className="banner-9-child-11">
+                        <div className="banner-9-child-12">
+                          <p>[type]</p>
+                          <h3>[title]</h3>
+                          <div className="banner-9-child-13">
+                            <a>[shop]</a>
+                          </div>
+                        </div>
+                      </div>
+                      <a></a>
+                    </figure>
+                  </li>
+                  <li className="buffer"></li>
+                </ul>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div className="banner-10">
+          <div className="banner-10-child">
+            <div className="banner-10-child-2">
+              <div className="banner-10-child-3">
+                <div className="banner-10-child-4">
+                  <h4>
+                    <label>[title]</label>
+                  </h4>
+                  <div className="banner-10-child-5">
+                    <ul>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <h4>
+                    <label>[title]</label>
+                  </h4>
+                  <div className="banner-10-child-5">
+                    <ul>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <h4>
+                    <label>[title]</label>
+                  </h4>
+                  <div className="banner-10-child-5">
+                    <ul>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <h4>
+                    <label>[title]</label>
+                  </h4>
+                  <div className="banner-10-child-5">
+                    <ul>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span>[product]</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="shop-root">
+          <div className="shop-root-child">
+            <div className="shop-root-child-2">
+              <div className="shop-cart-error"></div>
+            </div>
+            <div className="shop-root-child-3">
+              <div className="shop-cart-error-2"></div>
+            </div>
+            <div className="shop-root-child-4">
+              <div className="shop-cart-dialog"></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
+      <div id="footer-wrapper">
         <footer className="container-footer">
           <div className="container-20"></div>
           <div className="container-6">
